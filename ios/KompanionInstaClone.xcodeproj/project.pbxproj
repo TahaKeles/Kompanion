@@ -12,7 +12,8 @@
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		1B6738F3513CC499DB147635 /* libPods-KompanionInstaClone.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 92BC32A2AB15A5930EE1078A /* libPods-KompanionInstaClone.a */; };
-		57A98C3C27D8E70000C8030A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 57A98C3B27D8E70000C8030A /* GoogleService-Info.plist */; };
+		574ECBC027E3D654004D380A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 574ECBBF27E3D654004D380A /* GoogleService-Info.plist */; };
+		574ECBC127E3D654004D380A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 574ECBBF27E3D654004D380A /* GoogleService-Info.plist */; };
 		7FD11583DAD378D53EAA6608 /* libPods-KompanionInstaClone-KompanionInstaCloneTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 54914A961707BF561B0DB805 /* libPods-KompanionInstaClone-KompanionInstaCloneTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -39,7 +40,7 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = KompanionInstaClone/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = KompanionInstaClone/main.m; sourceTree = "<group>"; };
 		54914A961707BF561B0DB805 /* libPods-KompanionInstaClone-KompanionInstaCloneTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KompanionInstaClone-KompanionInstaCloneTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		57A98C3B27D8E70000C8030A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		574ECBBF27E3D654004D380A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = KompanionInstaClone/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92BC32A2AB15A5930EE1078A /* libPods-KompanionInstaClone.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-KompanionInstaClone.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		94893033CACDB0889FE9C31B /* Pods-KompanionInstaClone.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KompanionInstaClone.debug.xcconfig"; path = "Target Support Files/Pods-KompanionInstaClone/Pods-KompanionInstaClone.debug.xcconfig"; sourceTree = "<group>"; };
@@ -88,7 +89,7 @@
 		13B07FAE1A68108700A75B9A /* KompanionInstaClone */ = {
 			isa = PBXGroup;
 			children = (
-				57A98C3B27D8E70000C8030A /* GoogleService-Info.plist */,
+				574ECBBF27E3D654004D380A /* GoogleService-Info.plist */,
 				13B07FAF1A68108700A75B9A /* AppDelegate.h */,
 				13B07FB01A68108700A75B9A /* AppDelegate.m */,
 				13B07FB51A68108700A75B9A /* Images.xcassets */,
@@ -239,6 +240,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				574ECBC127E3D654004D380A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,7 +249,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
-				57A98C3C27D8E70000C8030A /* GoogleService-Info.plist in Resources */,
+				574ECBC027E3D654004D380A /* GoogleService-Info.plist in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
