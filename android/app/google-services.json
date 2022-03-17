@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "557754654736",
+    "project_id": "instaclone-59ecd",
+    "storage_bucket": "instaclone-59ecd.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:557754654736:android:3180b89ef9bbfb2a0aaa95",
+        "android_client_info": {
+          "package_name": "com.kompanioninstaclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "557754654736-tg8580dtum9234gsovtgn1cp1hdg9jk0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYgzYASr7pAtatdf9i2W32BCUUFpfKH3o"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "557754654736-tg8580dtum9234gsovtgn1cp1hdg9jk0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "557754654736-ku8ij7p8sj7piqnghlm5e8tm7r8t9e49.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.KompanionInstaClone"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
